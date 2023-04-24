@@ -9,7 +9,8 @@
 
 /* HEADER NAV BAR */
 header {
-    background: #1baccc;
+    background: rgb(122,231,255);
+    background: linear-gradient(31deg, rgba(122,231,255,1) 1%, rgba(27,172,204,1) 31%, rgba(122,231,255,1) 100%); 
     min-height: 60vh;
     border-top-left-radius:10px;
     border-top-right-radius:10px;
