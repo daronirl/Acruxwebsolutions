@@ -77,6 +77,10 @@ a {
     transition: all 0.3s ease-in-out;
     background-color: #fff;
 }
+
+
+
+
 /* END */
 
 /* HEAD Info*/
@@ -99,6 +103,23 @@ a {
 .text-box h1 {
     font-size: 3.0em;
 }
+
+.btn{
+display: inline-block;
+outline: none;
+cursor: pointer;
+font-size: 16px;
+line-height: 20px;
+font-weight: 600;
+border-radius: 8px;
+padding: 13px 23px;
+border: 1px solid #222222;
+transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+background: #fff;
+color: #222222;
+text-transform: uppercase;
+}
+
 
 
 /* HEAD END*/
@@ -150,13 +171,225 @@ a {
 .pricingTable10:hover .pricing-content ul:after,.pricingTable10:hover .pricing-content ul:before{background:linear-gradient(to bottom,#40c4db 50%,#34bacc 50%)}
 .pricingTable10 .pricing-content ul:before{left:44px}
 .pricingTable10 .pricing-content ul:after{right:44px}
-.pricingTable10 .pricing-content ul li{font-size:15px;font-weight:700;color:#777473;padding:10px 0;border-bottom:1px solid #d9d9d8}
+.pricingTable10 .pricing-content ul li{font-size:18px;font-weight:700;color:#777473;padding:10px 0;border-bottom:1px solid #d9d9d8}
 .pricingTable10 .pricing-content ul li:last-child{border-bottom:none}
-.pricingTable10 .read{display:inline-block;font-size:16px;color:#fff;text-transform:uppercase;background:#d9d9d8;padding:8px 25px;margin:30px 0;transition:all .3s ease 0s}
+.pricingTable10 .read{display:inline-block;font-size:16px;color:#fff;text-transform:uppercase;background: rgb(122,231,255);
+  background: linear-gradient(31deg, rgba(122,231,255,1) 1%, rgba(27,172,204,1) 31%, rgba(122,231,255,1) 100%); ;padding:8px 25px;margin:30px 0;transition:all .3s ease 0s}
 .pricingTable10 .read:hover{text-decoration:none}
-.pricingTable10:hover .read{background:#fff}
+.pricingTable10:hover .read{background: rgb(122,231,255);
+  background: linear-gradient(31deg, rgba(122,231,255,1) 1%, rgba(27,172,204,1) 31%, rgba(122,231,255,1) 100%); }
 @media screen and (max-width:990px){.pricingTable10{margin-bottom:25px}
 }
+
+   
+
+
+/*-- -------------------------- -->
+<---          Footer            -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    :root {
+      /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
+      --primary: #FFBA43;
+      --primaryLight: #001F3F;
+      --secondary: #FFBA43;
+      --secondaryLight: #FFBA43;
+      --headerColor: #1a1a1a;
+      --bodyTextColor: #6c61bd;
+      --bodyTextColorWhite: #FAFBFC;
+      /* 13px - 16px */
+      --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+      /* 31px - 49px */
+      --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+      --bodyFontSize: 1rem;
+      /* 60px - 100px top and bottom */
+      --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    }
+    #cs-footer-269 {
+      /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
+    
+      /* 60px - 100px top and bottom */
+      padding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+      background: rgb(122,231,255);
+      background: linear-gradient(31deg, rgba(122,231,255,1) 1%, rgba(27,172,204,1) 31%, rgba(122,231,255,1) 100%); 
+      /* Navigation Links */
+      /* Contact Links */
+    }
+    #cs-footer-269 .cs-container {
+      width: 100%;
+      /* reset on tablet */
+      max-width: 34.375rem;
+      margin: auto;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      /* 68px - 100px */
+      column-gap: clamp(4.25rem, calc(10%), 6.25rem);
+    }
+    #cs-footer-269 .cs-logo-group {
+      /* takes up all the space, lets the other ul's wrap below it */
+      width: 100%;
+      position: relative;
+    }
+    #cs-footer-269 .cs-logo {
+      /* 210px - 240px */
+      width: clamp(13.125rem, 8vw, 15rem);
+      height: auto;
+      display: block;
+      /* 28px - 44px */
+      margin-bottom: clamp(1.75rem, 4.17vw, 2.75rem);
+    }
+    #cs-footer-269 .cs-logo-img {
+      width: 100%;
+      height: auto;
+    }
+    #cs-footer-269 .cs-text {
+      /* 14px - 16px */
+      font-size: clamp(0.875rem, 2.5vw, 1rem);
+      line-height: 1.5em;
+      margin: 0;
+      margin-bottom: 2rem;
+      /* changes to 305px at desktop */
+      max-width: 33.75rem;
+      color: var(--bodyTextColorWhite);
+    }
+    #cs-footer-269 .cs-nav {
+      padding: 0;
+      margin: 0;
+    }
+    #cs-footer-269 .cs-nav-li {
+      list-style: none;
+      line-height: 1.5em;
+      margin-bottom: 0.5rem;
+    }
+    #cs-footer-269 .cs-nav-li:last-of-type {
+      margin-bottom: 0;
+    }
+    #cs-footer-269 .cs-header {
+      font-size: 1rem;
+      line-height: 1.5em;
+      font-weight: 700;
+      margin-bottom: 0.875rem;
+      color: var(--bodyTextColorWhite);
+      position: relative;
+      display: block;
+    }
+    #cs-footer-269 .cs-nav-link {
+      font-size: 1rem;
+      text-decoration: none;
+      line-height: 1.5em;
+      color: var(--bodyTextColorWhite);
+      position: relative;
+    }
+    #cs-footer-269 .cs-nav-link:before {
+      /* underline */
+      content: '';
+      width: 0%;
+      height: 0.125rem;
+      /* current color of the parent */
+      background: currentColor;
+      opacity: 1;
+      position: absolute;
+      display: block;
+      bottom: -0.125rem;
+      left: 0;
+      transition: width .3s;
+    }
+    #cs-footer-269 .cs-nav-link:hover:before {
+      width: 100%;
+    }
+    #cs-footer-269 .cs-contact {
+      margin: 0;
+      padding: 0;
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      align-self: stretch;
+    }
+    #cs-footer-269 .cs-contact-li {
+      list-style: none;
+      margin-bottom: 0rem;
+    }
+    #cs-footer-269 .cs-contact-li:last-of-type {
+      margin-bottom: 0;
+    }
+    #cs-footer-269 .cs-contact-link {
+      font-size: 1rem;
+      text-decoration: none;
+      line-height: 1.5em;
+      text-align: left;
+      color: var(--bodyTextColorWhite);
+      display: inline-block;
+    }
+    #cs-footer-269 .cs-contact-link:hover {
+      text-decoration: underline;
+    }
+    #cs-footer-269 .cs-address {
+      font-size: 1rem;
+      margin-bottom: 1.25rem;
+    }
+    #cs-footer-269 .cs-social-group {
+      /* pushes away from the other flex items */
+      margin-top: auto;
+      margin-left: auto;
+    }
+    #cs-footer-269 .cs-social {
+      display: inline-flex;
+      justify-content: flex-start;
+      gap: 0.75rem;
+    }
+    #cs-footer-269 .cs-social-link {
+      width: 1.5rem;
+      height: 1.5rem;
+      background: rgb(122,231,255);
+      background: linear-gradient(31deg, rgba(122,231,255,1) 1%, rgba(27,172,204,1) 31%, rgba(122,231,255,1) 100%); 
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+      transition: transform 0.3s, background-color 0.3s;
+    }
+    #cs-footer-269 .cs-social-link:hover {
+      background-color: var(--primary);
+      transform: translateY(-0.1875rem);
+    }
+    #cs-footer-269 .cs-social-img {
+      height: 0.8125rem;
+      width: auto;
+      display: block;
+    }
+  }
+  /* Tablet - 768px */
+  @media only screen and (min-width: 48rem) {
+    #cs-footer-269 .cs-container {
+      max-width: 80rem;
+      row-gap: 0;
+    }
+    #cs-footer-269 .cs-logo-group {
+      width: auto;
+      /* pushes everything to the right of it as far as possible in a flexbox */
+      margin-right: auto;
+    }
+    #cs-footer-269 .cs-text {
+      width: 80%;
+      max-width: 19.0625rem;
+      margin: 0;
+    }
+    #cs-footer-269 .cs-nav,
+    #cs-footer-269 .cs-contact {
+      /* 8px - 12px */
+      margin-top: clamp(0.5rem, 1.2vw, 0.75rem);
+    }
+  }
+                                  
+
+
+                           
 
 /* MEDIA QUERIESSSSS */
 
@@ -280,7 +513,7 @@ a {
    
     .sec-main-two h3 {
         text-align: center;
-        
+        font-size: 2em;
         
    
     }
@@ -295,9 +528,6 @@ a {
          right: 0;
          opacity: .2;
    
-       
-         
-       
     }
 
     .includes {
@@ -314,37 +544,7 @@ a {
         height: 1px;
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
     }
-
-    .demo10{background:#fff;padding:30px 0}
-.pricingTable10{text-align:center}
-.pricingTable10 .pricingTable-header{padding:30px 0;  background: rgb(122,231,255);
-    background: linear-gradient(31deg, rgba(122,231,255,1) 1%, rgba(27,172,204,1) 31%, rgba(122,231,255,1) 100%);;position:relative;transition:all .3s ease 0s}
-.pricingTable10:hover .pricingTable-header{background:#09b2c6}
-.pricingTable10 .pricingTable-header:after,.pricingTable10 .pricingTable-header:before{content:"";width:16px;height:16px;border-radius:50%;border:1px solid #d9d9d8;position:absolute;bottom:12px}
-.pricingTable10 .pricingTable-header:before{left:40px}
-.pricingTable10 .pricingTable-header:after{right:40px}
-.pricingTable10 .heading{font-size:20px;color:#fff;text-transform:uppercase;letter-spacing:2px;margin-top:0}
-.pricingTable10 .price-value{display:inline-block;position:relative;font-size:55px;font-weight:700;color:#fff;transition:all .3s ease 0s}
-.pricingTable10:hover .price-value{color:#fff}
-.pricingTable10 .currency{font-size:30px;font-weight:700;position:absolute;top:6px;left:-19px}
-.pricingTable10 .month{font-size:16px;color:#fff;position:absolute;bottom:15px;right:-30px;text-transform:uppercase}
-.pricingTable10 .pricing-content{padding-top:50px;background:#fff;position:relative}
-.pricingTable10 .pricing-content:after,.pricingTable10 .pricing-content:before{content:"";width:16px;height:16px;border-radius:50%;border:1px solid #7c7c7c;position:absolute;top:12px}
-.pricingTable10 .pricing-content:before{left:40px}
-.pricingTable10 .pricing-content:after{right:40px}
-.pricingTable10 .pricing-content ul{padding:0 20px;margin:0;list-style:none}
-.pricingTable10 .pricing-content ul:after,.pricingTable10 .pricing-content ul:before{content:"";width:8px;height:46px;border-radius:3px;background:linear-gradient(to bottom,#818282 50%,#727373 50%);position:absolute;top:-22px;z-index:1;box-shadow:0 0 5px #707070;transition:all .3s ease 0s}
-.pricingTable10:hover .pricing-content ul:after,.pricingTable10:hover .pricing-content ul:before{background:linear-gradient(to bottom,#40c4db 50%,#34bacc 50%)}
-.pricingTable10 .pricing-content ul:before{left:44px}
-.pricingTable10 .pricing-content ul:after{right:44px}
-.pricingTable10 .pricing-content ul li{font-size:15px;font-weight:700;color:#777473;padding:10px 0;border-bottom:1px solid #d9d9d8}
-.pricingTable10 .pricing-content ul li:last-child{border-bottom:none}
-.pricingTable10 .read{display:inline-block;font-size:16px;color:#fff;text-transform:uppercase;background:#d9d9d8;padding:8px 25px;margin:30px 0;transition:all .3s ease 0s}
-.pricingTable10 .read:hover{text-decoration:none}
-.pricingTable10:hover .read{background:#fff}
-@media screen and (max-width:990px){.pricingTable10{margin-bottom:25px}
 }
 
-   
 
-}
+    
