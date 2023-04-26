@@ -1,4 +1,23 @@
 
+
+
+header {
+  height: 20vh;
+  background-image: url("../images/stars.jpg");
+
+}
+
+
+.contact-us {
+  color: #fff;
+  text-align: center;
+  font-size: 3em;
+}
+
+
+
+
+
 /*-- -------------------------- -->
 <---          Contact           -->
 <--- -------------------------- -*/
