@@ -22,7 +22,7 @@ header {
 }
 
 .logo-img {
-    height: 120px;
+   height: 120px;
     
 }
 
@@ -31,7 +31,7 @@ li {
 }
 
 a {
-    color: #393e46;  
+  
     text-decoration: none;
 }
 
@@ -677,8 +677,7 @@ text-transform: uppercase;
     top: 120px;
     gap: 0;
     flex-direction: column;
-    background: rgb(122,231,255);
-    background: linear-gradient(31deg, rgba(122,231,255,1) 1%, rgba(27,172,204,1) 31%, rgba(122,231,255,1) 100%); 
+    background-image: url("../images/stars.jpg");
     width: 100%;
     height: 70%;
     text-align: center;
@@ -711,8 +710,7 @@ text-transform: uppercase;
  }
 
  .text-box {
-     margin-left: 15px;
-     width: 90%;
+   
     
  }
 
@@ -732,14 +730,16 @@ text-transform: uppercase;
  }
 
  .text-with-picture  {
-     display: flex;
-     flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  
+    
     
  
  }
 
  .text-with-picture, svg {
-     width: 320px;
+     width: 240px;
  }
  
  .sec-main {
@@ -787,12 +787,12 @@ text-transform: uppercase;
 }
 
 /* Small screen devices (600px and above) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 546px) {
 
 
 .text-box {
   margin-left: 15px;
-  width: 90%;
+ 
  
 }
 
@@ -814,6 +814,7 @@ text-transform: uppercase;
 .text-with-picture  {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
  
 
 }
@@ -878,31 +879,54 @@ hr {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
+.create-sol {
+ padding-bottom: 75px;
+
+ }
+
 }
 
 /* Big screen devices (889px and above) */
 @media only screen and (min-width: 889px) {
 
+  header { 
+    height: 45vh;
+  }
+
+  .text-with-picture  {
+   display: flex;
+   flex-direction: row;
+  
+  
+}
+
+
+ .create-sol {
+ padding-bottom: 75px;
  
 }
+ 
+}
+
+
 
 /* Extra big screen devices (1200px and above) */
 @media only screen and (min-width: 1200px) {
 
   header {
-    height: 50vh;
+    height: 62vh;
   }
 
   .text-box {
-    width: 40%;
+    width: 35%;
     margin: 0 auto;
    
   }
   
   .text-with-picture  {
-    display: flex;
-
-    padding-top: 50px;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 45px;
  }
 
 
@@ -951,5 +975,5 @@ hr {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
   
- 
+
 }

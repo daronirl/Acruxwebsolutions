@@ -1,9 +1,13 @@
 
 
-
 header {
-  height: 20vh;
-  background-image: url("../images/stars.jpg");
+  height: 36vh;
+ background-image: url('../images/stars.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+ filter: grayscale(60%);
+
 
 }
 
@@ -12,6 +16,8 @@ header {
   color: #fff;
   text-align: center;
   font-size: 3em;
+  padding-top: 35px;
+
 }
 
 
@@ -266,3 +272,4 @@ header {
       margin: 0;
     }
   }
+
